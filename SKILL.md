@@ -1,6 +1,6 @@
 ---
 name: ms-marketing-sentence-imitation
-description: Acceptance-oriented sentence-and-structure imitation for Management Science Marketing theory manuscripts. Use when writing, rewriting, auditing, or outlining analytical marketing papers for the Management Science Marketing department; when the user asks to imitate MS Marketing articles paragraph by paragraph or sentence by sentence; when turning BlindBox/FOMO/social-comparison/retention/pricing model results into publishable article prose; or when diagnosing whether a section reads like an MS Marketing theory paper.
+description: Acceptance-oriented sentence-and-structure imitation for Management Science Marketing theory manuscripts. Use when writing, rewriting, auditing, or outlining analytical marketing papers for the Management Science Marketing department; when the user asks to imitate MS Marketing articles paragraph by paragraph or sentence by sentence.
 ---
 
 # MS Marketing Sentence Imitation
