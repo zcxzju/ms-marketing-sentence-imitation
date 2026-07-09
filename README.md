@@ -22,7 +22,7 @@ Use this skill to:
 - turn technical propositions into marketing-facing design boundaries;
 - map a manuscript onto a Management Science Marketing article structure;
 - diagnose whether a section reads like an acceptance-oriented marketing theory paper;
-- translate abstract model primitives into business language, especially for blind-box, FOMO, social comparison, retention, pricing, and exposure-design papers.
+- translate abstract model primitives into concrete marketing decisions, consumer states, constraints, and managerial diagnostics.
 
 The skill does not promise journal acceptance. It gives the agent a stricter writing workflow aimed at the standards and style of Management Science Marketing theory articles.
 
@@ -64,7 +64,7 @@ Audit this Analysis section and tell me whether it reads like an MS Marketing th
 ```
 
 ```text
-Imitate Management Science Marketing article structure paragraph by paragraph for this BlindBox manuscript.
+Imitate Management Science Marketing article structure paragraph by paragraph for this manuscript.
 ```
 
 ```text
@@ -81,12 +81,12 @@ The preferred writing order is:
 phenomenon -> managerial puzzle -> model primitive -> benchmark -> mechanism -> policy rule -> welfare or managerial boundary -> robustness
 ```
 
-For BlindBox-style papers, the skill encourages translating notation into marketing objects:
+When possible, translate notation into marketing objects:
 
-- `\ell` -> exposure-adjusted comparison sensitivity
-- visible outcomes -> exposure architecture
-- follow-up choices -> retention architecture
-- optimized regimes -> design boundaries
+- model primitives -> firm decisions or consumer states
+- constraints -> managerial tradeoffs
+- comparative statics -> design boundaries
+- optimized regimes -> actionable policy rules
 
 ## 中文
 
@@ -108,7 +108,7 @@ For BlindBox-style papers, the skill encourages translating notation into market
 - 把技术性 proposition 改写成面向 marketing reader 的设计边界；
 - 将一篇 manuscript 映射到 Management Science Marketing 的文章结构；
 - 诊断某一节是否读起来像 MS Marketing 理论文；
-- 把抽象模型参数翻译成商业语言，尤其适用于 blind-box、FOMO、social comparison、retention、pricing 和 exposure-design 论文。
+- 把抽象模型参数翻译成具体的营销决策、消费者状态、约束条件和管理诊断。
 
 这个 skill 不承诺文章一定被接收。它提供的是一个更严格的写作流程，使文章更接近 Management Science Marketing 理论文的审稿期待和写作风格。
 
@@ -150,7 +150,7 @@ Audit this Analysis section and tell me whether it reads like an MS Marketing th
 ```
 
 ```text
-Imitate Management Science Marketing article structure paragraph by paragraph for this BlindBox manuscript.
+Imitate Management Science Marketing article structure paragraph by paragraph for this manuscript.
 ```
 
 ```text
@@ -167,9 +167,9 @@ Turn these propositions into reader-friendly marketing design rules.
 phenomenon -> managerial puzzle -> model primitive -> benchmark -> mechanism -> policy rule -> welfare or managerial boundary -> robustness
 ```
 
-对于 BlindBox 类型论文，这个 skill 会鼓励把符号翻译成 marketing objects：
+在可能的情况下，这个 skill 会鼓励把符号翻译成 marketing objects：
 
-- `\ell` -> exposure-adjusted comparison sensitivity
-- visible outcomes -> exposure architecture
-- follow-up choices -> retention architecture
-- optimized regimes -> design boundaries
+- model primitives -> firm decisions or consumer states
+- constraints -> managerial tradeoffs
+- comparative statics -> design boundaries
+- optimized regimes -> actionable policy rules

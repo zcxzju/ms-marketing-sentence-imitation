@@ -68,12 +68,6 @@ Order the model section as:
 5. Constraints: participation, incentive, feasibility, commitment, information, or common-price constraints.
 6. Reduced problem: summarize what the model reduces to before solving.
 
-For BlindBox, use this order:
-
-```text
-platform exposure architecture -> stochastic draw -> visible outcome history -> failed-consumer state -> follow-up eligibility -> common-price or targeted-price constraint -> firm profit
-```
-
 ## Result Section Architecture
 
 Use this sequence:
@@ -110,7 +104,7 @@ Separate extensions from assumption discussion.
 Use assumption discussion for:
 
 - Observability of prices or outcomes.
-- Commitment to future price or follow-up access.
+- Commitment to future actions or policies.
 - Information visibility and exposure control.
 - Consumer sophistication or bounded rationality.
 - Platform implementation details.

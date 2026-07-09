@@ -31,11 +31,6 @@ Patterns:
 - `The answer is not obvious because [consumer state/constraint/information] changes with [firm action].`
 - `A policy that expands reach may lower profit if it pools [strong state] with [weak state] under a common [price/message/disclosure].`
 
-For BlindBox:
-
-- `Public outcome visibility appears to be a natural retention device, but it also determines which failed consumers share the follow-up pricing pool.`
-- `The managerial object is not visibility per se, but the set of post-draw histories that visibility keeps commercially active.`
-
 ## Research Question
 
 Purpose: state the firm-side decision clearly.
@@ -57,12 +52,6 @@ Patterns:
 - `This literature typically treats [object] as [old role]. In our setting, [object] becomes [new role].`
 - `The closest papers study [A]. We differ by focusing on [B], where [why B matters].`
 - `Our contribution is not that [broad phenomenon] matters, but that [specific mechanism] changes [managerial decision].`
-
-Three-stream structure for BlindBox-like papers:
-
-1. Probabilistic selling / loot-box design: add public outcome histories and repeat purchase.
-2. Social comparison / peer exposure / FOMO: comparison exposure is not a uniform demand shifter.
-3. Dynamic purchasing / targeting / retention: the state is relative outcome history, not only purchase history.
 
 ## Contribution Paragraphs
 
@@ -88,11 +77,6 @@ Patterns:
 - `Consumers differ not in [irrelevant trait], but in [state created by the marketing environment].`
 - `[Parameter] captures [marketing meaning]. It matters because it shifts [binding constraint/participation condition].`
 - `The firm's problem is therefore to trade off [reach] against [state-specific willingness to pay].`
-
-For `\ell`:
-
-- `The parameter \ell is an exposure-adjusted comparison-sensitivity primitive. It summarizes how strongly a consumer reacts when the platform makes a self-lacks-H / peer-has-H comparison salient.`
-- `\ell matters because it changes which follow-up constraint binds.`
 
 ## Proposition Lead-Ins
 
@@ -121,16 +105,6 @@ Patterns:
 - `The model therefore predicts a wedge between [private design incentive] and [consumer/welfare outcome].`
 - `Managers should measure [observable behavior] rather than average demand alone.`
 - `When [observable pattern], the model recommends [policy]. When [opposite pattern], it recommends [alternative policy].`
-
-BlindBox diagnostic table rows:
-
-```text
-Observable pattern -> Interpretation -> Recommended design
-repeat purchases after both failed-together and behind-peer histories -> broad engagement remains active -> preserve broad follow-up
-repeat purchases mainly after observed peer success -> catch-up urgency dominates -> use smaller peer groups or targeted offers
-broad exposure lowers repeat purchase -> common-price bottleneck -> segment exposure
-late-campaign spikes after visible winners -> deadline-based catch-up -> use countdowns and limited coupons
-```
 
 ## Acceptance-Facing Rewrite Checklist
 

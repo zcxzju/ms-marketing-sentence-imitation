@@ -16,7 +16,7 @@ Never guarantee acceptance. Aim for an acceptance-oriented draft by making the m
 1. Inspect live artifacts before rewriting.
    - If the user gives a manuscript path, read section headings, abstract, introduction, model setup, propositions, figures, and result summaries.
    - If the user points to `/Users/chenxi/obsidian/MS_marketing`, list notes and PDFs there; prefer the user's notes over memory.
-   - If the task is BlindBox-related, translate abstract objects into marketing language: `\ell` as exposure-adjusted comparison sensitivity, visible outcomes as exposure architecture, and follow-up choices as retention architecture.
+   - Translate abstract model objects into concrete marketing decisions, consumer states, constraints, and observable managerial diagnostics.
 
 2. Decide the imitation level.
    - Whole paper: use section architecture and result ordering.
@@ -42,7 +42,7 @@ Read only what the task needs:
 1. Diagnose the current draft in MS Marketing terms.
    - Is the first screen a real marketing practice?
    - Is the research question a firm/platform decision rather than a parameter exercise?
-   - Is the behavioral or information primitive connected to pricing, retention, targeting, product design, welfare, or competition?
+   - Is the behavioral or information primitive connected to a meaningful firm decision, consumer response, market outcome, or welfare implication?
    - Does every result answer a managerially named tradeoff?
 
 2. Build a section-function map.
