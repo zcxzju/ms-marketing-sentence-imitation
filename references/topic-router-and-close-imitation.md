@@ -11,6 +11,8 @@ Report:
 ```text
 Primary topic class:
 Secondary topic class:
+Research object:
+Method:
 Firm lever:
 Consumer process:
 Market consequence:
@@ -20,6 +22,62 @@ What not to imitate:
 ```
 
 If a manuscript spans multiple classes, choose the class that owns the paper's research question, not the class that merely supplies examples or citations.
+
+## Method Classification
+
+Always classify the method separately from the topic.
+
+Common MS Marketing methods:
+
+- Analytical game-theory model: firm/consumer strategic interaction, equilibrium, comparative statics.
+- Dynamic model: state variables, transitions, dynamic pricing, retention, diffusion, or repeated purchase.
+- Search model: consumer search order, search cost, discovery, matching, or journey control.
+- Information design / persuasion model: disclosure, observability, belief updating, signal design, or learning.
+- Targeting / personalization model: consumer data, segmentation, privacy response, behavior-based action.
+- Network / diffusion model: WOM, peer effects, social influence, seeding, adoption, or disadoption.
+- Structural / empirical model: field data, estimated demand/retention/network effects, counterfactuals.
+- Experiment / behavioral evidence: lab/field experiment, survey, or behavioral measurement.
+- Numerical / simulation analysis: used to compare policies when closed-form characterization is limited.
+
+Report whether the method is:
+
+- Same as the strongest comparables.
+- Adjacent but acceptable for the topic.
+- Potentially weaker because the topic's MS Marketing comparables usually use another method.
+- Stronger/different because it gives a cleaner mechanism or broader policy comparison.
+
+## Comparable-Paper Benchmark
+
+Before rewriting, build a compact benchmark against same-topic Management Science Marketing articles.
+
+Use local notes/PDFs first. If the user asks for current or exact department acceptance status, verify from official article pages before making current claims.
+
+For each comparable, extract:
+
+```text
+Paper:
+Research object:
+Method:
+Core conclusion:
+What it does better than us:
+What we do better / can claim differently:
+How to imitate it:
+What not to import:
+```
+
+Use "better" and "worse" only on named dimensions:
+
+- topic proximity
+- method fit
+- mechanism clarity
+- result novelty
+- counterintuitive punch
+- managerial relevance
+- empirical/phenomenon grounding
+- proof/result completeness
+- writing clarity
+
+Do not say a paper is globally better or worse. Say, for example, "better as an opening template," "weaker on direct topic proximity," or "stronger methodologically but less close to our research object."
 
 ## Topic Classes
 
@@ -224,10 +282,11 @@ Do not imitate:
 
 Use this for "逐字模仿" requests. The goal is close rhetorical imitation, not verbatim copying.
 
-1. Locate same-class articles locally.
+1. Locate same-class and same-method articles locally.
    - Use the user's specified folder first.
    - Prefer marked-up PDFs or Obsidian notes when available.
    - Extract only the needed section, usually abstract, introduction, model opening, proposition lead-in, or contribution paragraph.
+   - If same-topic and same-method comparables conflict, prioritize same-topic for positioning and same-method for technical exposition.
 
 2. Build a sentence-role trace.
    - For each source sentence, label its role: phenomenon, example, puzzle, question, primitive, result, boundary, contribution, roadmap, or implication.
@@ -255,7 +314,11 @@ Use this for "逐字模仿" requests. The goal is close rhetorical imitation, no
 
 ```text
 Topic classification:
+Research object:
+Method classification:
 Same-class reference articles:
+Comparable methods and conclusions:
+Better/worse diagnosis:
 Imitation unit:
 Source sentence-role trace:
 Close imitation draft:

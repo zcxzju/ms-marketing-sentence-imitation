@@ -9,6 +9,7 @@ An AgentSkill for writing and revising analytical marketing theory manuscripts i
 The skill helps an AI writing agent imitate the reusable structure of Management Science Marketing articles at three levels:
 
 - topic-class routing
+- method and comparable-paper benchmarking
 - whole-paper architecture
 - paragraph function
 - sentence role
@@ -22,6 +23,8 @@ Use this skill to:
 - rewrite abstracts, introductions, model sections, result sections, and managerial implications;
 - turn technical propositions into marketing-facing design boundaries;
 - identify the manuscript's general MS Marketing topic class before selecting reference articles;
+- identify the manuscript's method and compare it with same-topic Management Science Marketing articles;
+- summarize comparable papers' methods and conclusions, then judge where they are stronger or weaker on named dimensions;
 - imitate same-topic articles through sentence-role traces rather than generic templates;
 - map a manuscript onto a Management Science Marketing article structure;
 - diagnose whether a section reads like an acceptance-oriented marketing theory paper;
@@ -45,6 +48,7 @@ The skill does not promise journal acceptance. It gives the agent a stricter wri
 `references/section-architecture.md` contains whole-paper and section-level structures.
 
 `references/topic-router-and-close-imitation.md` contains the topic-class router and same-class close imitation protocol.
+It also contains the method classifier and comparable-paper benchmark format.
 
 `references/sentence-templates.md` contains sentence-role templates for openings, puzzles, research questions, literature gaps, contributions, propositions, welfare, and managerial implications.
 
@@ -78,6 +82,10 @@ First identify what type of MS Marketing topic this is, then imitate articles in
 ```
 
 ```text
+Tell me what method this paper uses, what same-topic MS Marketing papers use, what they conclude, and whether they are better or worse than us.
+```
+
+```text
 Turn these propositions into reader-friendly marketing design rules.
 ```
 
@@ -105,6 +113,7 @@ When possible, translate notation into marketing objects:
 这个 skill 帮助 AI 写作代理在三个层级模仿 Management Science Marketing 文章的可复用写法：
 
 - 主题类别识别
+- 方法与同类文章基准比较
 - 整篇文章结构
 - 段落功能
 - 句子角色
@@ -118,6 +127,8 @@ When possible, translate notation into marketing objects:
 - 改写 abstract、introduction、model section、result section 和 managerial implications；
 - 把技术性 proposition 改写成面向 marketing reader 的设计边界；
 - 先识别稿件属于哪类 MS Marketing 主题，再选择同主题参考文章；
+- 识别稿件使用的方法，并和同类 Management Science Marketing 文章的方法比较；
+- 总结同类文章的方法和结论，再判断它们在哪些维度比我们强或弱；
 - 通过句子角色轨迹模仿同主题文章，而不是套通用句型；
 - 将一篇 manuscript 映射到 Management Science Marketing 的文章结构；
 - 诊断某一节是否读起来像 MS Marketing 理论文；
@@ -141,6 +152,7 @@ When possible, translate notation into marketing objects:
 `references/section-architecture.md` 包含整篇文章和章节层级的结构模板。
 
 `references/topic-router-and-close-imitation.md` 包含主题分类路由和同主题贴身模仿流程。
+它也包含方法分类和同类文章基准比较格式。
 
 `references/sentence-templates.md` 包含 opening、puzzle、research question、literature gap、contribution、proposition、welfare 和 managerial implication 的句子角色模板。
 
@@ -171,6 +183,10 @@ Imitate Management Science Marketing article structure paragraph by paragraph fo
 
 ```text
 先识别这篇稿子属于哪类 MS Marketing 主题，再逐句模仿同类文章。
+```
+
+```text
+判断这篇文章用的什么方法，同类 MS Marketing 文章用什么方法、有什么结论、比我们好还是差。
 ```
 
 ```text

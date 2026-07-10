@@ -1,6 +1,6 @@
 ---
 name: ms-marketing-sentence-imitation
-description: Acceptance-oriented sentence-and-structure imitation for Management Science Marketing theory manuscripts. Use when writing, rewriting, auditing, or outlining analytical marketing papers for the Management Science Marketing department; when the user asks to first identify the manuscript's MS Marketing topic class and then imitate same-topic MS Marketing articles paragraph by paragraph or sentence by sentence.
+description: Acceptance-oriented sentence-and-structure imitation for Management Science Marketing theory manuscripts. Use when writing, rewriting, auditing, or outlining analytical marketing papers for the Management Science Marketing department; when the user asks to first identify the manuscript's MS Marketing topic class/research object and method, compare same-topic Management Science Marketing articles by method/conclusions/relative strength, and then imitate same-topic articles paragraph by paragraph or sentence by sentence.
 ---
 
 # MS Marketing Sentence Imitation
@@ -13,6 +13,8 @@ Never guarantee acceptance. Aim for an acceptance-oriented draft by making the m
 
 For imitation tasks, first classify the manuscript's topic class, then imitate same-class MS Marketing articles. Do not default to BlindBox/FOMO templates unless the manuscript's topic actually fits digital goods, stochastic products, social comparison, or retention.
 
+For any audit, rewrite, outline, or imitation task, start with a positioning block: research object, method, same-topic MS Marketing comparables, what methods they use, what conclusions they reach, and whether they are stronger or weaker than the user's manuscript on clearly named dimensions.
+
 ## First Move
 
 1. Inspect live artifacts before rewriting.
@@ -23,7 +25,9 @@ For imitation tasks, first classify the manuscript's topic class, then imitate s
 2. Classify the topic before choosing templates.
    - Read `references/topic-router-and-close-imitation.md` when the user asks for imitation, rewrite, positioning, introduction revision, or article-template selection.
    - Assign one primary topic class and, if needed, one secondary class.
-   - Select local reference articles from the same class before using generic MS Marketing sentence templates.
+   - Identify the manuscript's method: analytical game theory, dynamic model, search model, information design, structural/empirical, experiment, field data, numerical analysis, or mixed method.
+   - Select local same-topic reference articles before using generic MS Marketing sentence templates.
+   - For each comparable, state its method, core conclusion, and whether it is better or worse than the user's manuscript on topic fit, method fit, result punch, managerial relevance, and writing clarity.
 
 3. Decide the imitation level.
    - Whole paper: use section architecture and result ordering.
@@ -49,6 +53,9 @@ Read only what the task needs:
 
 1. Diagnose the current draft in MS Marketing terms.
    - Which topic class does it belong to: pricing/dynamic demand, search/discovery, targeting/data, social influence/networks, platform/marketplace, digital goods/games, information design/persuasion, or welfare/regulation?
+   - What is the research object: price, search path, targeting/data, exposure, platform rule, digital product design, information environment, regulation, or welfare?
+   - What method does the manuscript use, and is that method common among same-topic Management Science Marketing papers?
+   - What do same-topic MS Marketing papers usually conclude, and where is the user's result stronger, weaker, or differently positioned?
    - Is the first screen a real marketing practice?
    - Is the research question a firm/platform decision rather than a parameter exercise?
    - Is the behavioral or information primitive connected to a meaningful firm decision, consumer response, market outcome, or welfare implication?
@@ -72,10 +79,26 @@ Read only what the task needs:
 
 ## Output Shapes
 
+Default first block for all substantive outputs:
+
+```text
+Positioning verdict:
+Research object / topic class:
+Method:
+Closest MS Marketing comparables:
+Comparable methods and conclusions:
+Relative strength vs. this manuscript:
+Implication for writing/rewrite:
+```
+
 For a quick rewrite:
 
 ```text
-Verdict:
+Positioning verdict:
+Research object / topic class:
+Method:
+Closest comparables:
+Better/worse diagnosis:
 Section function:
 MS-style rewrite:
 Why this is closer to Management Science Marketing:
@@ -84,14 +107,17 @@ Why this is closer to Management Science Marketing:
 For a full writing plan:
 
 ```text
-1. Reference hierarchy
-2. Target article structure
-3. Introduction paragraph map
-4. Section-by-section imitation map
-5. Proposition/result order
-6. Related-literature bridge sentences
-7. Managerial implication diagnostics
-8. What to move to appendix
+1. Research object and topic classification
+2. Method classification
+3. Same-topic MS Marketing comparable table: method, conclusion, better/worse than us
+4. Reference hierarchy
+5. Target article structure
+6. Introduction paragraph map
+7. Section-by-section imitation map
+8. Proposition/result order
+9. Related-literature bridge sentences
+10. Managerial implication diagnostics
+11. What to move to appendix
 ```
 
 For direct TeX edits, patch the manuscript and then run a compile check when the project has a known compile command.
