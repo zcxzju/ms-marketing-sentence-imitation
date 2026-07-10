@@ -1,6 +1,6 @@
 ---
 name: ms-marketing-sentence-imitation
-description: Acceptance-oriented sentence-and-structure imitation for Management Science Marketing theory manuscripts. Use when writing, rewriting, auditing, or outlining analytical marketing papers for the Management Science Marketing department; when the user asks to imitate MS Marketing articles paragraph by paragraph or sentence by sentence.
+description: Acceptance-oriented sentence-and-structure imitation for Management Science Marketing theory manuscripts. Use when writing, rewriting, auditing, or outlining analytical marketing papers for the Management Science Marketing department; when the user asks to first identify the manuscript's MS Marketing topic class and then imitate same-topic MS Marketing articles paragraph by paragraph or sentence by sentence.
 ---
 
 # MS Marketing Sentence Imitation
@@ -11,20 +11,27 @@ Write like a Management Science Marketing theory paper, not like a proof package
 
 Never guarantee acceptance. Aim for an acceptance-oriented draft by making the marketing phenomenon real, the managerial decision explicit, the theoretical mechanism memorable, and the result order reviewer-friendly.
 
+For imitation tasks, first classify the manuscript's topic class, then imitate same-class MS Marketing articles. Do not default to BlindBox/FOMO templates unless the manuscript's topic actually fits digital goods, stochastic products, social comparison, or retention.
+
 ## First Move
 
 1. Inspect live artifacts before rewriting.
    - If the user gives a manuscript path, read section headings, abstract, introduction, model setup, propositions, figures, and result summaries.
-   - If the user points to `/Users/chenxi/obsidian/MS_marketing`, list notes and PDFs there; prefer the user's notes over memory.
+   - If the user points to `/Users/chenxi/obsidian/MS_marketing`, list notes and PDFs there, search title fragments with `find` or `rg`, and prefer the user's notes over memory.
    - Translate abstract model objects into concrete marketing decisions, consumer states, constraints, and observable managerial diagnostics.
 
-2. Decide the imitation level.
+2. Classify the topic before choosing templates.
+   - Read `references/topic-router-and-close-imitation.md` when the user asks for imitation, rewrite, positioning, introduction revision, or article-template selection.
+   - Assign one primary topic class and, if needed, one secondary class.
+   - Select local reference articles from the same class before using generic MS Marketing sentence templates.
+
+3. Decide the imitation level.
    - Whole paper: use section architecture and result ordering.
    - Introduction: use the 8-paragraph MS Marketing introduction sequence.
    - Section rewrite: use paragraph function labels before drafting.
-   - Sentence polish: replace technical proof prose with marketing-theory sentence roles.
+   - Sentence polish: imitate the sentence role, transition logic, clause order, and level of concreteness of same-class articles; do not reproduce their wording.
 
-3. Keep the output manuscript-facing.
+4. Keep the output manuscript-facing.
    - Lead with phenomenon, managerial puzzle, and mechanism.
    - Put equations after the economic object is named.
    - State propositions as design boundaries or comparative rules.
@@ -34,12 +41,14 @@ Never guarantee acceptance. Aim for an acceptance-oriented draft by making the m
 
 Read only what the task needs:
 
+- `references/topic-router-and-close-imitation.md`: use first for theme classification, reference-article selection, and sentence-by-sentence close imitation within the matched topic class.
 - `references/section-architecture.md`: use for whole-paper outline, section ordering, result sequence, extensions, and assumption-discussion placement.
 - `references/sentence-templates.md`: use for introduction paragraphs, contribution paragraphs, related-literature bridges, model-section prose, proposition lead-ins, and managerial implication sentences.
 
 ## Workflow
 
 1. Diagnose the current draft in MS Marketing terms.
+   - Which topic class does it belong to: pricing/dynamic demand, search/discovery, targeting/data, social influence/networks, platform/marketplace, digital goods/games, information design/persuasion, or welfare/regulation?
    - Is the first screen a real marketing practice?
    - Is the research question a firm/platform decision rather than a parameter exercise?
    - Is the behavioral or information primitive connected to a meaningful firm decision, consumer response, market outcome, or welfare implication?

@@ -34,6 +34,8 @@ but preserve the same internal sequence: phenomenon -> puzzle -> primitive -> be
 
 Use these local notes/PDFs as style anchors:
 
+Before relying on any title below, locate the current local artifact. Use `find /Users/chenxi/obsidian/MS_marketing -iname '*title-fragment*'` for filenames and `rg -n "title fragment" /Users/chenxi/obsidian/MS_marketing` for note text. If the user names a specific note or PDF, read that file first and treat this hierarchy only as routing guidance.
+
 - `The Joy of Shopping: Thrill of the Treasure Hunt`: best for opening a familiar consumption experience and turning it into a formal utility/design problem.
 - `Pricing and Design of Pay-to-Win Add-Ons`: best for writing digital-game design, win/loss sensitivity, pricing, and counterintuitive product-design implications.
 - `Searching for Rewards`: best for repeated purchase, loyalty, CRM, and history-conditioned consumer paths.
