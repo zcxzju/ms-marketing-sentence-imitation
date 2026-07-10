@@ -1,9 +1,9 @@
 ---
-name: ms-marketing-sentence-imitation
+name: ms-mkt-publish
 description: Acceptance-oriented Chinese-output sentence-and-structure imitation for Management Science Marketing theory manuscripts. Use when writing, rewriting, auditing, or outlining analytical marketing papers for the Management Science Marketing department; when the user asks to first identify the manuscript's MS Marketing topic class/research object and method, compare same-topic Management Science Marketing articles by method/conclusions/relative strength, draw a compact Chinese mind map of topic-method-comparable relationships when useful, and then imitate same-topic articles paragraph by paragraph or sentence by sentence.
 ---
 
-# MS Marketing Sentence Imitation
+# MS MKT Publish
 
 ## Core Rule
 

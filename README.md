@@ -1,10 +1,10 @@
-# MS Marketing Sentence Imitation
+# MS MKT Publish
 
 [English](#english) | [中文](#中文)
 
 ## English
 
-An AgentSkill for writing and revising analytical marketing theory manuscripts in a Management Science Marketing style. By default, substantive outputs are in Chinese, while article titles, journal names, variables, equations, citation keys, and precision-sensitive technical terms remain in English when needed.
+An AgentSkill named `ms-mkt-publish` for writing and revising analytical marketing theory manuscripts in a Management Science Marketing style. By default, substantive outputs are in Chinese, while article titles, journal names, variables, equations, citation keys, and precision-sensitive technical terms remain in English when needed.
 
 The skill helps an AI writing agent imitate the reusable structure of Management Science Marketing articles at three levels:
 
@@ -16,6 +16,32 @@ The skill helps an AI writing agent imitate the reusable structure of Management
 - sentence role
 
 It is designed for theory-heavy manuscripts where the draft needs to read less like a proof package and more like a publishable marketing paper: concrete phenomenon first, managerial puzzle second, formal model third, and memorable design implications throughout.
+
+## Mind Map Example
+
+```mermaid
+mindmap
+  root((用户稿件))
+    研究对象 / 主题类别
+      主主题类别
+      副主题类别
+      管理决策
+    方法
+      本文方法
+      与 MS Marketing 的方法匹配度
+    同主题 MS Marketing 可比文章
+      可比文章 1
+        方法
+        主要结论
+        更强 / 更弱的维度
+      可比文章 2
+        方法
+        主要结论
+        更强 / 更弱的维度
+    写作含义
+      应该模仿什么
+      不应该引入什么
+```
 
 ## What It Does
 
@@ -69,7 +95,7 @@ Then restart or refresh Codex so the skill metadata is loaded.
 ## Example Prompts
 
 ```text
-Use ms-marketing-sentence-imitation to rewrite my introduction for Management Science Marketing.
+Use ms-mkt-publish to rewrite my introduction for Management Science Marketing.
 ```
 
 ```text
@@ -111,7 +137,7 @@ When possible, translate notation into marketing objects:
 
 ## 中文
 
-一个用于撰写和修改 Management Science Marketing 部门解析建模/理论论文的 AgentSkill。
+一个名为 `ms-mkt-publish`、用于撰写和修改 Management Science Marketing 部门解析建模/理论论文的 AgentSkill。
 
 默认输出为中文；论文题名、期刊名、作者名、变量、公式、引用键和不宜翻译的技术术语会在必要时保留英文。
 
@@ -125,6 +151,32 @@ When possible, translate notation into marketing objects:
 - 句子角色
 
 它适合理论味较重的稿件，尤其是那些需要从“证明包”改成“可投稿营销论文”的草稿：先讲真实营销现象，再讲管理困惑，然后引入 formal model，并持续把技术结果翻译成审稿人容易记住的设计含义。
+
+## 思维导图示例
+
+```mermaid
+mindmap
+  root((用户稿件))
+    研究对象 / 主题类别
+      主主题类别
+      副主题类别
+      管理决策
+    方法
+      本文方法
+      与 MS Marketing 的方法匹配度
+    同主题 MS Marketing 可比文章
+      可比文章 1
+        方法
+        主要结论
+        更强 / 更弱的维度
+      可比文章 2
+        方法
+        主要结论
+        更强 / 更弱的维度
+    写作含义
+      应该模仿什么
+      不应该引入什么
+```
 
 ## 功能
 
@@ -178,7 +230,7 @@ git clone git@github.com:zcxzju/ms-marketing-sentence-imitation.git
 ## 示例 Prompt
 
 ```text
-Use ms-marketing-sentence-imitation to rewrite my introduction for Management Science Marketing.
+Use ms-mkt-publish to rewrite my introduction for Management Science Marketing.
 ```
 
 ```text
