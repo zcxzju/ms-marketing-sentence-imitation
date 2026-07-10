@@ -4,12 +4,13 @@
 
 ## English
 
-An AgentSkill for writing and revising analytical marketing theory manuscripts in a Management Science Marketing style.
+An AgentSkill for writing and revising analytical marketing theory manuscripts in a Management Science Marketing style. By default, substantive outputs are in Chinese, while article titles, journal names, variables, equations, citation keys, and precision-sensitive technical terms remain in English when needed.
 
 The skill helps an AI writing agent imitate the reusable structure of Management Science Marketing articles at three levels:
 
 - topic-class routing
 - method and comparable-paper benchmarking
+- Chinese positioning benchmarks and Mermaid mind maps
 - whole-paper architecture
 - paragraph function
 - sentence role
@@ -25,6 +26,8 @@ Use this skill to:
 - identify the manuscript's general MS Marketing topic class before selecting reference articles;
 - identify the manuscript's method and compare it with same-topic Management Science Marketing articles;
 - summarize comparable papers' methods and conclusions, then judge where they are stronger or weaker on named dimensions;
+- start substantive outputs with a six-part Chinese positioning benchmark: research object/topic class, manuscript method, closest same-topic Management Science Marketing comparables, comparable methods, comparable conclusions, and dimension-specific better/worse diagnosis;
+- draw a compact Chinese Mermaid mind map when multiple comparables or topic-method relationships need to be shown visually;
 - imitate same-topic articles through sentence-role traces rather than generic templates;
 - map a manuscript onto a Management Science Marketing article structure;
 - diagnose whether a section reads like an acceptance-oriented marketing theory paper;
@@ -110,10 +113,13 @@ When possible, translate notation into marketing objects:
 
 一个用于撰写和修改 Management Science Marketing 部门解析建模/理论论文的 AgentSkill。
 
+默认输出为中文；论文题名、期刊名、作者名、变量、公式、引用键和不宜翻译的技术术语会在必要时保留英文。
+
 这个 skill 帮助 AI 写作代理在三个层级模仿 Management Science Marketing 文章的可复用写法：
 
 - 主题类别识别
 - 方法与同类文章基准比较
+- 中文定位基准与 Mermaid 思维导图
 - 整篇文章结构
 - 段落功能
 - 句子角色
@@ -129,6 +135,8 @@ When possible, translate notation into marketing objects:
 - 先识别稿件属于哪类 MS Marketing 主题，再选择同主题参考文章；
 - 识别稿件使用的方法，并和同类 Management Science Marketing 文章的方法比较；
 - 总结同类文章的方法和结论，再判断它们在哪些维度比我们强或弱；
+- 所有实质性输出先给出六项中文定位基准：研究对象/主题类别、本文方法、最接近的同主题 Management Science Marketing 可比文章、可比文章方法、可比文章结论、与本文相比更强/更弱的维度；
+- 当涉及多个可比文章或主题-方法关系时，画出紧凑的中文 Mermaid 思维导图；
 - 通过句子角色轨迹模仿同主题文章，而不是套通用句型；
 - 将一篇 manuscript 映射到 Management Science Marketing 的文章结构；
 - 诊断某一节是否读起来像 MS Marketing 理论文；
