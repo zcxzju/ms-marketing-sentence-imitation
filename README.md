@@ -21,26 +21,26 @@ It is designed for theory-heavy manuscripts where the draft needs to read less l
 
 ```mermaid
 mindmap
-  root((用户稿件))
-    研究对象 / 主题类别
-      主主题类别
-      副主题类别
-      管理决策
-    方法
-      本文方法
-      与 MS Marketing 的方法匹配度
-    同主题 MS Marketing 可比文章
-      可比文章 1
-        方法
-        主要结论
-        更强 / 更弱的维度
-      可比文章 2
-        方法
-        主要结论
-        更强 / 更弱的维度
-    写作含义
-      应该模仿什么
-      不应该引入什么
+  root((User manuscript))
+    Research object / topic class
+      Primary topic class
+      Secondary topic class
+      Managerial decision
+    Method
+      Manuscript method
+      Method fit with MS Marketing
+    Same-topic MS Marketing comparables
+      Comparable paper 1
+        Method
+        Main conclusion
+        Better / weaker dimensions
+      Comparable paper 2
+        Method
+        Main conclusion
+        Better / weaker dimensions
+    Writing implications
+      What to imitate
+      What to avoid
 ```
 
 ## What It Does
